@@ -171,7 +171,7 @@ git status
 
 ## Usage
 
-### Start Jupyter Notebook
+### Option 1: Using Jupyter in Browser (Traditional)
 
 ```bash
 # Make sure environment is activated
@@ -181,7 +181,23 @@ conda activate kraken-tools
 jupyter notebook
 ```
 
-This will open your browser. Navigate to `subaccount_transfer.ipynb`.
+This will:
+1. Start the Jupyter server
+2. Automatically open your browser to http://localhost:8888
+3. Show a file browser where you can click on `subaccount_transfer.ipynb`
+
+### Option 2: Using VS Code (Alternative)
+
+If you prefer VS Code:
+
+1. **Install the Jupyter extension** in VS Code (if not already installed)
+2. **Open the project folder** in VS Code
+3. **Open** `subaccount_transfer.ipynb`
+4. **Select the kernel**: Click on "Select Kernel" in the top-right
+   - Choose the `kraken-tools` conda environment
+5. **Run cells** by clicking the play button or using Shift+Enter
+
+**Tip:** VS Code provides better autocomplete and debugging than browser Jupyter.
 
 ### Follow the Notebook Steps
 
