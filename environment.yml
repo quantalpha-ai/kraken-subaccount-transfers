@@ -1,0 +1,13 @@
+name: kraken-tools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - requests>=2.31.0,<3.0.0
+      - python-dotenv>=1.0.0,<2.0.0
+      - pandas>=2.0.0,<3.0.0
+      - jupyter>=1.0.0,<2.0.0
+      - ipykernel>=6.25.0,<7.0.0
